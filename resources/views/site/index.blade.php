@@ -8,7 +8,7 @@
                     <div class="card-body">
                         <h3 class="card-title">
                             <strong style="color: #0059FF;">Bem-vindo ao seu portal de marketing:</strong> 
-                            O seu portal para encontrar os melhores os melhores profissionais de 
+                            O seu portal para encontrar os melhores profissionais de 
                             <strong style="color: #0059FF;">Marketing</strong>
                         </h3>
                         <p style="margin-top: 30px;">
@@ -16,7 +16,7 @@
                             Aqui conectamos você diretamente aos especialistas em marketing de todo o Brasil.
                         </p>
                         <p>Sem taxa de negociação: cobre dos seus clientes sem se preocupar com o pagamento de comissão na plataforma.</p>
-                        <p style="color: #0059FF;">Sem taxa comissão na plataforma 0%</p>
+                        <h4 style="color: #0059FF;">Sem taxa comissão na plataforma 0%</h4>
                         <a href="{{ url('/cadastro-do-marketing')}}" class="btn btn-primary">Cadastre-se aqui</a>
                     </div>
                 </div>
@@ -99,6 +99,7 @@
     {{--  --}}
     <div class="container" style="margin-top: 50px;">
         <h3 class="d-flex justify-content-center" style="color: #0059FF;">Encontre Profissionais de marketing</h3>
+        <h4 class="d-flex justify-content-center" style="color: #0059FF;">Sem taxa comissão na plataforma 0%</h4>
         <div class="porqueescolher">
             <div class="row" style="margin-top: 50px;">
                 <div class="col-sm-6 mb-3 mb-sm-0">
@@ -252,6 +253,7 @@
                 </h3>
                 <p>Sem taxa de negociação: cobre dos seus clientes sem se preocupar com o pagamento de comissão na plataforma.</p>
                 <p>Sou profissional de marketing e quero me cadastrar.</p>
+                <h4 style="color: #0059FF;">Sem taxa comissão na plataforma 0%</h4>
                 <a href="{{ url('/cadastro-do-marketing')}}" class="btn btn-primary">Cadastre-se aqui</a>
             </div>            
         </div>
