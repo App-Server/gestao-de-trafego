@@ -13,10 +13,9 @@ use App\Http\Controllers\SiteController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('site');
+Route::get('/nossos-planos', function () {
+    return view('site.price');
 });
 
-Route::get('/', [SiteController::class, 'index'])->name('site.index');
-Route::get('/cadastro-de-gestor', [SiteController::class, 'create'])->name('site.create');
+Route::get('/home', [SiteController::class, 'index'])->name('site.index');
+Route::get('/cadastro-do-marketing', [SiteController::class, 'create'])->name('site.create');

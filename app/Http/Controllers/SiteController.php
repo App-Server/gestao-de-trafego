@@ -15,4 +15,14 @@ class SiteController extends Controller
     {
         return view('site.create');
     }
+
+    public function store()
+    {
+
+    }
+
+    public function show()
+    {
+
+    }
 }
