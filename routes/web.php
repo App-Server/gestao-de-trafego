@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SiteController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('site');
 });
+
+Route::get('/', [SiteController::class, 'index'])->name('site.index');
+Route::get('/cadastro-de-gestor', [SiteController::class, 'create'])->name('site.create');
